@@ -11,7 +11,7 @@ SQLite is a popular low resource easy to use relational database. In this tutori
 #### Setup
 
 * Create a new Pivotproject and name it SQLiteDemo.
-* Lets start by adding the nessisary libraries and packages to our project. First click on tools then extentions and updates.
+* Lets start by adding the necessary libraries and packages to our project. First click on tools then extentions and updates.
 
 ![alt text][img1]
 
@@ -20,11 +20,11 @@ SQLite is a popular low resource easy to use relational database. In this tutori
 
 ![alt text][img2]
 
-* Next we need to add the sdk to our project. In the solution explorer right click the refrences and choose add refrence.
+* Next, we need to add the sdk to our project. In the solution explorer right click the references and choose add reference.
 
 ![alt text][img3]
 
-* In the left pane of the refrence manager window choose windows phone then extentions and ensure the sqlite sdk is checked. Click okay.
+* In the left pane of the reference manager window choose windows phone then extentions and ensure the sqlite sdk is checked. Click okay.
 
 ![alt text][img4]
 
@@ -34,7 +34,7 @@ SQLite is a popular low resource easy to use relational database. In this tutori
 
 ![alt text][img6]
 
-* Lets add the needed packages using the package manager. In the package manager window search for SQLitePCL then install the Portable Class Library for SQLite package. Then search wptoolkit and install the windows phone toolkit.
+* Let's add the needed packages using the package manager. In the package manager window search for SQLitePCL then install the Portable Class Library for SQLite package. Then search wptoolkit and install the windows phone toolkit.
 
 ![alt text][img7]
 
@@ -104,7 +104,7 @@ This is the Xaml for the user interface.
 
 ```
 
-#### Lets Learn the New Stuff
+#### Let's Learn the New Stuff
 
 * Open the MainPage.cs file and add this import at the top of the file.
 
@@ -232,7 +232,7 @@ This is the Xaml for the user interface.
 
 ```
 
-* Almost there! Add these function calls to your cunstructor.
+* Almost there! Add these function calls to your constructor.
 
 ```cs 
 
