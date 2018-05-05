@@ -10,14 +10,33 @@ SQLite is a popular low resource easy to use relational database. In this tutori
 
 #### Setup
 
-1. Create a new Pivotproject and name it SQLiteDemo.
-1. Lets start by adding the nessisary libraries and packages to our project. First click on tools then extentions and updates.
-1. On the left panel in the extentions and updates window click online then SDK.
-1. In the search bar on the top left type SQLite and install the SQLite for windows phone sdk.
-1. Next we need to add the sdk to our project. In the solution explorer right click the refrences and choose add refrence.
-1. In the left pane of the refrence manager window choose windows phone then extentions and ensure the sqlite sdk is checked. Click okay.
-1. Before moving on we need to change the platform to x86 to avoid errors. First right click the project in solution explorer, then select configuration manager. In the manager change the platform dropdown to x86 and select okay.
-1. Lets add the needed packages using the package manager. In the package manager window search for SQLitePCL then install the Portable Class Library for SQLite package. Then search wptoolkit and install the windows phone toolkit.
+* Create a new Pivotproject and name it SQLiteDemo.
+* Lets start by adding the nessisary libraries and packages to our project. First click on tools then extentions and updates.
+
+![alt text][img1]
+
+* On the left panel in the extentions and updates window click online then SDK.
+* In the search bar on the top left type SQLite and install the SQLite for windows phone sdk.
+
+![alt text][img2]
+
+* Next we need to add the sdk to our project. In the solution explorer right click the refrences and choose add refrence.
+
+![alt text][img3]
+
+* In the left pane of the refrence manager window choose windows phone then extentions and ensure the sqlite sdk is checked. Click okay.
+
+![alt text][img4]
+
+* Before moving on we need to change the platform to x86 to avoid errors. First right click the project in solution explorer, then select configuration manager. In the manager change the platform dropdown to x86 and select okay.
+
+![alt text][img5]
+
+![alt text][img6]
+
+* Lets add the needed packages using the package manager. In the package manager window search for SQLitePCL then install the Portable Class Library for SQLite package. Then search wptoolkit and install the windows phone toolkit.
+
+![alt text][img7]
 
 #### UI
 
@@ -91,7 +110,7 @@ This is the Xaml for the user interface.
 
 ```cs
 
-using SQLitePCL;
+        using SQLitePCL;
 
 ```
 
@@ -248,4 +267,12 @@ using SQLitePCL;
       }
 
 ```
+
+[img1]: img/fimg1.png "Tutorial img 1 shows a visual of above text. Created by Caleb Wagner."
+[img2]: img/fimg2.png "Tutorial img 2 shows a visual of above text. Created by Caleb Wagner."
+[img3]: img/fimg3.png "Tutorial img 3 shows a visual of above text. Created by Caleb Wagner."
+[img4]: img/fimg4.png "Tutorial img 4 shows a visual of above text. Created by Caleb Wagner."
+[img5]: img/fimg5.png "Tutorial img 5 shows a visual of above text. Created by Caleb Wagner."
+[img6]: img/fimg6.png "Tutorial img 6 shows a visual of above text. Created by Caleb Wagner."
+[img7]: img/fimg7.png "Tutorial img 7 shows a visual of above text. Created by Caleb Wagner."
 
