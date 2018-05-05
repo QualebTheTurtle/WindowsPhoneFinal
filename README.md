@@ -148,7 +148,8 @@ This is the Xaml for the user interface.
                 //exicues insert statement from SQL string
                 using (var namestmt = conn.Prepare("INSERT INTO Name (Name) VALUES(?)"))
                 {
-                    //bind gives a value to a ? in a SQL Query. Binds parameters are (value number from 1 to max ?'s, a variable to swap with the ?)
+                    //bind gives a value to a ? in a SQL Query. 
+                    //Binds parameters are (value number from 1 to max ?'s, a variable to swap with the ?)
                     namestmt.Bind(1, name);
                     namestmt.Step();
                 }
